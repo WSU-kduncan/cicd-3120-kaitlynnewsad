@@ -50,5 +50,6 @@
   
   Proof of website running: 
   
-  ![Screenshot 2022-03-24 133835](https://user-images.githubusercontent.com/56359938/159977845-44c08ab0-191c-4627-8c27-f0d873cab4b9.png)
+  ![Screenshot 2022-03-24 133835](https://user-images.githubusercontent.com/56359938/159978541-7a28b342-98c8-4089-96b2-59732ccc1805.png)
+
 
