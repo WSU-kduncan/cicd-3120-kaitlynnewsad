@@ -20,7 +20,9 @@
       
     Note: Took some time for Ubuntu to change from WSL1 to WSL2.
   
-  After making sure the dependecie was WSL2 went to Docker Desktop and made sure WSL2 was checked off. Also, go to Refrences tab and click on WSL       Integration. Make sure on the WSL Integration that you checked on WSL2 enbaled and made sure Ubuntu-18.04 was checked off as well.
+  After making sure the dependecie was WSL2 went to Docker Desktop and made sure WSL2 was checked off. Also, go to Refrences tab and click on WSL Integration.
+  
+  Make sure on the WSL Integration that you checked on WSL2 enbaled and made sure Ubuntu-18.04 was checked off as well.
   
 - How to build the container
   Create a file called Dockerfile. Add this code to Dockerfile:
