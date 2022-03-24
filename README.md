@@ -25,22 +25,22 @@
 - How to build the container
   Create a file called Dockerfile. Add this code to Dockerfile:
    
-    FROM nginx:alpine
+      FROM nginx:alpine
 
-    WORKDIR /usr/share/nginx/html
+      WORKDIR /usr/share/nginx/html
 
-    RUN rm -rf ./*
+      RUN rm -rf ./*
 
-    COPY ./* ./
+      COPY ./* ./
 
-    ENTRYPOINT ["nginx", "-g", "daemon off;"]
+      ENTRYPOINT ["nginx", "-g", "daemon off;"]
     
    After creating Dockerfile. Create an image using docker build -t static-nginx. 
   
 - How to run the container
 
   To run the container after you create the image:
-     docker run --rm -it -p 8080:80 static-nginx
+      docker run --rm -it -p 8080:80 static-nginx
 
 - How to view the project (open a browser go to ip and port)
 
