@@ -57,14 +57,14 @@
   
   ## Part 2
   
-  - Create DockerHub public repo. Process to create repo.
+ - Create DockerHub public repo. Process to create repo.
 
 
-  - Allow DockerHub authentication via CLI Dockerhub credentials
+ - Allow DockerHub authentication via CLI Dockerhub credentials
 
-  - Configure GitHub secrets
+ - Configure GitHub secrets
       - what credentials are needed - DockerHub credential
      
       - set secrets and secret names
 
-  - Configure Github Workflow. Variables to change
+ - Configure Github Workflow. Variables to change
