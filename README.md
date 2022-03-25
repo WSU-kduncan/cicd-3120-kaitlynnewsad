@@ -1,10 +1,10 @@
 # Project 5
 
-## Part 1
+
 
 ### Project Overview 
 
-### Run Project Locally
+## Part 1
 
 - How you installed docker + dependencies
 
@@ -54,5 +54,17 @@
   Proof of website running: 
   
   ![Screenshot 2022-03-24 133835](https://user-images.githubusercontent.com/56359938/159978541-7a28b342-98c8-4089-96b2-59732ccc1805.png)
+  
+  ## Part 2
+  
+  - Create DockerHub public repo. Process to create repo.
 
 
+  - Allow DockerHub authentication via CLI Dockerhub credentials
+
+  - Configure GitHub secrets
+      - what credentials are needed - DockerHub credential
+     
+      - set secrets and secret names
+
+  - Configure Github Workflow. Variables to change
