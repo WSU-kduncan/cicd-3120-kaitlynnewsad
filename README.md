@@ -39,7 +39,7 @@
     
    After creating Dockerfile. Create an image using this command: 
    
-        docker build -t static-nginx. 
+        docker build -t static-nginx . 
   
 - How to run the container
 
