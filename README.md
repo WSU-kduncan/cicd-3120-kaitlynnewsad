@@ -49,7 +49,7 @@
 
 - How to view the project (open a browser go to ip and port)
 
-  To view website on browser. Type into browser localhost/8000
+  To view website on browser. Type into browser localhost:8000
   
   Proof of website running: 
   
