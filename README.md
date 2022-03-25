@@ -37,12 +37,15 @@
 
       ENTRYPOINT ["nginx", "-g", "daemon off;"]
     
-   After creating Dockerfile. Create an image using docker build -t static-nginx. 
+   After creating Dockerfile. Create an image using this command: 
+   
+        docker build -t static-nginx. 
   
 - How to run the container
 
   To run the container after you create the image:
-      docker run --rm -it -p 8080:80 static-nginx
+  
+        docker run --rm -it -p 8080:80 static-nginx
 
 - How to view the project (open a browser go to ip and port)
 
