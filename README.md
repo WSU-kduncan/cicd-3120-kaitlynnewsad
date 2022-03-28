@@ -58,13 +58,23 @@
   ## Part 2
   
  - Create DockerHub public repo. Process to create repo.
+ 
+ Go to Dockerhub in browser. Sign into your DockerHub accountant. Then click on Repositories and click on the button "Create Repositories" Name the repository project name and make sure you clicked on public. 
 
 
  - Allow DockerHub authentication via CLI Dockerhub credentials
+ 
+  Go to settings and click on secuurity. Hit on the button "New Access Token", Nmae the token and and pur read, write, delete for the scope. After creating the token save the key in a notepad document. 
 
  - Configure GitHub secrets
       - what credentials are needed - DockerHub credential
      
+      You need to have your docker key you created that you have stored in your notepad doc.
+      
+     
       - set secrets and secret names
+      
+        Create one secret called DOCKER_USERNAME with your docker username.
+        Create another secret called DOCKER_PASSSWORD with the string of letters of numbers that was the key your created.
 
  - Configure Github Workflow. Variables to change
