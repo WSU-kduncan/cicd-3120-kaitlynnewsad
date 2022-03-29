@@ -75,6 +75,7 @@
       - set secrets and secret names
       
         Create one secret called DOCKER_USERNAME with your docker username.
+        
         Create another secret called DOCKER_PASSSWORD with the string of letters of numbers that was the key your created.
 
  - Configure Github Workflow. Variables to change
