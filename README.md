@@ -59,12 +59,12 @@
   
  - Create DockerHub public repo. Process to create repo.
  
-  Go to Dockerhub in browser. Sign into your DockerHub accountant. Then click on Repositories and click on the button "Create Repositories" Name the      repository project name and make sure you clicked on public. 
+      Go to Dockerhub in browser. Sign into your DockerHub accountant. Then click on Repositories and click on the button "Create Repositories" Name the      repository project name and make sure you clicked on public. 
 
 
- - Allow DockerHub authentication via CLI Dockerhub credentials
+- Allow DockerHub authentication via CLI Dockerhub credentials
  
-  Go to settings and click on secuurity. Hit on the button "New Access Token", Nmae the token and and pur read, write, delete for the scope. After creating the token save the key in a notepad document. 
+     Go to settings and click on secuurity. Hit on the button "New Access Token", Nmae the token and and pur read, write, delete for the scope. After creating the token save the key in a notepad document. 
 
  - Configure GitHub secrets
       - what credentials are needed - DockerHub credential
