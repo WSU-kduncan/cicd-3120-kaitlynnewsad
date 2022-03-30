@@ -1,4 +1,4 @@
-name: website
+name: static-nginx
 
 on:
   push:
@@ -32,4 +32,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/website:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/static-nginx:latest
