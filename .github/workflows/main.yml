@@ -32,4 +32,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/ubuntu-apache2-bird-website:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/website:latest
