@@ -89,7 +89,7 @@
  
     Change the varibles for Docker username and Docker password to the ones your created in GitHub secrets.
     
-    Change the last tag on the bottom to the name of your project. For exmaple mine is website.
+    Change the last tag on the bottom to the name of your image
 
 ## Part 3
 
