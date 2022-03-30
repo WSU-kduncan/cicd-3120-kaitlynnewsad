@@ -80,9 +80,9 @@
 
  - Configure Github Workflow. Variables to change
  
-    Change the varibles for Dokcer username and Docker password to the ones your created in GitHub secrets.
+    Change the varibles for Docker username and Docker password to the ones your created in GitHub secrets.
     
-    Change the last tag on the bottom to the name of your project.
+    Change the last tag on the bottom to the name of your project. For exmaple mine is website.
 
 ## Part 3
 
