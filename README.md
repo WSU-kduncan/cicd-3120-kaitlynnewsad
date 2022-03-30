@@ -79,6 +79,10 @@
         Create another secret called DOCKER_PASSSWORD with the string of letters of numbers that was the key your created.
 
  - Configure Github Workflow. Variables to change
+ - 
+    Change the varibles for Dokcer username and Docker password to the ones your created in GitHub secrets.
+    
+    Change the last tag on the bottom to the name of your project.
 
 ## Part 3
 
