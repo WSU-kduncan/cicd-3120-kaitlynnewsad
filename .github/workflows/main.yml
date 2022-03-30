@@ -1,4 +1,4 @@
-name: static-nginx
+name: website
 
 on:
   push:
