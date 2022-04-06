@@ -96,10 +96,5 @@
 - Creating a webhook.
 
 
-## Extra Credit 
-
-- Image of Project/ Docker pull command
-
-- How to run he container image
 
 
