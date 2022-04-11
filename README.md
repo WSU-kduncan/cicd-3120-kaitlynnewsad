@@ -65,9 +65,9 @@
     
             docker login -u <"your-username"> -p <"your-docker-password"> docker.io
     
-            docker tag static-ngix kaitlynnewsad/project-5:1.0
+            docker tag static-nginx kaitlynnewsad/project-5:lastest
             
-            docker push kaitlynnewsad/project-5:1.0
+            docker push kaitlynnewsad/project-5:lastest
     
 
 
