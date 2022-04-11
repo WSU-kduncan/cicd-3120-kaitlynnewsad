@@ -26,4 +26,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/static-nginx:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/ kaitlynnewsad/project-5:latest
