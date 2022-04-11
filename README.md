@@ -93,12 +93,35 @@
     
 
 ## Part 3
+Clone Github repo to remote ubuntu that you have ssh into. 
+
+Install both docker and webnook onto remote system. 
+
+Create two files:
+
+- restart.json : hook config file. 
+- 
+- pull-restart.sh : script that will call config file
 
 - Container restart script
     - What it does?
+    
+      The script will ill any other version old versions of the container. 
+      
+      Will also kill any unused containers or images.
+      
+      Will get updated images and run the container on poer 80.
 
 - Webnook task defintion file
     - What it does?
+    
+      Will define the files the webnok needs to call.
+      
+      Will use the webnook you created in docker and will use that id to call the server.
+      
+      Will call on the script called push-restart.
+      
+      If succesfully done the webnook will print a message.
 
 - Seeting up a webnook on the server
     - How you created you own listener?
