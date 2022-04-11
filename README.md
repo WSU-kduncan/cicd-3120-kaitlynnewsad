@@ -91,7 +91,6 @@
  
     Change the varibles for Docker username and Docker password to the ones your created in GitHub secrets.
     
-    Change the last tag on the bottom to the name of your image. Mine was static-nginx.
 
 ## Part 3
 
