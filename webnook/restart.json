@@ -1,1 +1,8 @@
-
+[
+  {
+    "id": "restart",
+    "execute-command": "./pull-restart.sh",
+    "command-working-directory": "/home/ubuntu/cicd-3120-kaitlynnewsad/webhook",
+    "response-message": "Redeploying API server."
+  }
+]
