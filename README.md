@@ -63,6 +63,8 @@
       
     Add image created above to this repo we have created using these commands:
     
+            docker login -u <"your-username"> -p <"your-docker-password"> docker.io
+    
             docker tag static-ngix kaitlynnewsad/project-5:1.0
             
             docker push kaitlynnewsad/project-5:1.0
