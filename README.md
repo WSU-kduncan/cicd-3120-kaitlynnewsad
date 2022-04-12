@@ -100,7 +100,6 @@ Install both docker and webnook onto remote system.
 Create two files:
 
 - redeploy.json : hook config file. 
-- 
 - pull-restart.sh : script that will call config file
 
 - Container restart script
