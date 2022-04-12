@@ -93,14 +93,14 @@
     
 
 ## Part 3
-Clone Github repo to remote ubuntu that you have ssh into. 
+Clone Github repo to remote ubuntu that you ssh into. 
 
 Install both docker and webnook onto remote system. 
 
 Create two files:
 
-- redeploy.json : hook config file. 
-- pull-restart.sh : script that will call config file
+    - redeploy.json : hook config file. 
+    - pull-restart.sh : script that will call config file
 
 - Container restart script
     - What it does?
@@ -119,6 +119,9 @@ Create two files:
 
 - Seeting up a webnook on the server
     - How you created you own listener?
+                sudo ./pull-restart.sh -hooks redeploy.json
+                webnook -hooks path/to/webnook-config.json -verbose
+                
     - How you installed and are running the webnook on Github?
 
 
