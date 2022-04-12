@@ -102,8 +102,8 @@ same public IP address as remote system. Example: https://IP-address:9000/hooks/
 
 Create two files:
 
-    - redeploy.json : hook config file. 
-    - pull-restart.sh : script that will call config file
+  - redeploy.json : hook config file. 
+  - pull-restart.sh : script that will call config file
 
 - Container restart script
     - What it does?
@@ -122,6 +122,7 @@ Create two files:
 
 - Seeting up a webnook on the server
     - How you created you own listener?
+    
                     sudo ./pull-restart.sh -hooks redeploy.json
                     
                     webnook -hooks path/to/webnook-config.json -verbose
