@@ -97,6 +97,9 @@ Clone Github repo to remote ubuntu that you ssh into.
 
 Install both docker and webnook onto remote system. 
 
+To create webnook on Docker. Got to repo for project clikc on webnook names project and create a URL that uses the 
+same public IP address as remote system. Example: https://IP-address:9000/hooks/redeploy
+
 Create two files:
 
     - redeploy.json : hook config file. 
@@ -119,10 +122,13 @@ Create two files:
 
 - Seeting up a webnook on the server
     - How you created you own listener?
-                sudo ./pull-restart.sh -hooks redeploy.json
-                webnook -hooks path/to/webnook-config.json -verbose
+                    sudo ./pull-restart.sh -hooks redeploy.json
+                    
+                    webnook -hooks path/to/webnook-config.json -verbose
                 
     - How you installed and are running the webnook on Github?
+    
+      Change website file in project then commit and push chnages to GitHub
 
 
 ## Part 4
