@@ -133,7 +133,7 @@ Create two files:
       Also used this guide on github: https://github.com/adnanh/webhook
       Made chnages to my index.html to make sure the webnook was running on Github. 
       
-    - Setting up a notifier in GitHub or DockerHub
+   - Setting up a notifier in GitHub or DockerHub
       I set up to be notified in Github my going to settings and going to the webnooks tab.
       I enerted the url I made for Dockerhub and put notify me on everything. 
 
