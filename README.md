@@ -129,8 +129,13 @@ Create two files:
                 
     - How you installed and are running the webnook on Github?
     
-      Change website file in project then commit and push chnages to GitHub
-
+      I installed webnook on using sudo apt-get insall webnook and using the link from github. 
+      Also used this guide on github: https://github.com/adnanh/webhook
+      Made chnages to my index.html to make sure the webnook was running on Github. 
+      
+    - Setting up a notifier in GitHub or DockerHub
+      I set up to be notified in Github my going to settings and going to the webnooks tab.
+      I enerted the url I made for Dockerhub and put notify me on everything. 
 
 ## Part 4
 - Diagram 
