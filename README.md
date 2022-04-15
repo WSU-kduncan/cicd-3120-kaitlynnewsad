@@ -131,7 +131,7 @@ Create two files:
     
       I installed webnook on using sudo apt-get insall webnook and using the link from github. 
       Also used this guide on github: https://github.com/adnanh/webhook
-      Made chnages to my index.html to make sure the webnook was running on Github. 
+      Made changes to my index.html to make sure the webnook was running on Github. 
       
    - Setting up a notifier in GitHub or DockerHub
       I set up to be notified in Github my going to settings in this repo and going to the webnooks tab.
