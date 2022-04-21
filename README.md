@@ -121,6 +121,7 @@ Create two files:
       If succesfully done the webnook will print a message.
 
 - Seeting up a webnook on the server
+
     - How you created you own listener?
     
                     sudo ./pull-restart.sh -hooks redeploy.json
@@ -134,6 +135,7 @@ Create two files:
       Made changes to my index.html to make sure the webnook was running on Github. 
       
    - Setting up a notifier in GitHub or DockerHub
+   
       I set up to be notified in Github my going to settings in this repo and going to the webnooks tab.
       I entered the url I made for Dockerhub and put notify me on everything. 
 
